@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react'
 import React from 'react'
 
 // 子组件传递数据给父组件

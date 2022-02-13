@@ -1,3 +1,33 @@
+#### 父子组件
+`./src/Parent.js ./src/Child.js`
+#### 兄弟组件通讯
+`./src/Counter.js`
+#### react生命周期
+`./src/react_dom.js`
+
+#### 跨组件传递使用 Context
+`./src/Context.js`
+
+#### 高阶组件用法
+`./src/App.js`
+
+#### 初始化项目: npx create-react-app my-app
+#### 启动项目: npm start
+
+#### 调整项目结构
+src/
+	assets/  资源(图片\字体图标等)
+	components/ 公共组件
+	pages/ 	页面
+	utils/  工具
+	App.js  根组件(配置路由信息)
+	index.css 全局样式
+	index.js  项目入口文件(渲染根目录\导入组件库等)
+#### 路由的基本使用
+1. 安装`yarn add react-router-dom`
+2. 导入路由的三个核心组件: Router/Route/Link
+`import {BrowserRouter as Router ,Route , Link} from 'react-router-dom'`
+3. 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
